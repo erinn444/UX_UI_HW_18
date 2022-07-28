@@ -124,7 +124,6 @@ body {
 .flexContainer {
     display: flex;
     flex-direction: row;
-    margin: 140px;
     justify-content: center;
     align-content: space-around;
 
@@ -493,6 +492,8 @@ text-decoration: none;
 font-weight: lighter;
 padding: 16px;
 }
+
+/* not sure why this isn't working :( */
 
 @media only screen and (max-width:600){
     .flexContainer{
